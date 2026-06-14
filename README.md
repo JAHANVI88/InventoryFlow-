@@ -81,79 +81,24 @@ Inventory Management Dashboard--A full-stack Inventory Management Dashboard buil
 ```bash
 InventoryFlow/
 │
-├── client/                          # Next.js Frontend
-│
+├── client/                    # Next.js Frontend
 │   ├── public/
-│   │   ├── next.svg
-│   │   └── vercel.svg
-│   │
 │   ├── src/
-│   │   ├── app/
-│   │   │
-│   │   ├── (components)/
-│   │   │   ├── Header/
-│   │   │   ├── Navbar/
-│   │   │   ├── Rating/
-│   │   │   └── Sidebar/
-│   │   │
-│   │   ├── dashboard/
-│   │   │   ├── CardExpenseSummary.tsx
-│   │   │   ├── CardPopularProducts.tsx
-│   │   │   ├── CardPurchaseSummary.tsx
-│   │   │   ├── CardSalesSummary.tsx
-│   │   │   ├── StatCard.tsx
-│   │   │   └── page.tsx
-│   │   │
-│   │   ├── products/
-│   │   │   ├── CreateProductModal.tsx
-│   │   │   └── page.tsx
-│   │   │
-│   │   ├── inventory/
-│   │   ├── expenses/
-│   │   ├── settings/
-│   │   ├── users/
-│   │   ├── dashboardWrapper.tsx
-│   │   ├── redux.tsx
-│   │   ├── layout.tsx
-│   │   └── page.tsx
-│   │
-│   └── state/
-│       ├── api.ts
-│       └── index.ts
+│   ├── package.json
+│   └── tsconfig.json
 │
-├── server/                          # Node.js Backend
-│
+├── server/                    # Node.js Backend
 │   ├── src/
-│   │   ├── controllers/
-│   │   │   ├── dashboardController.ts
-│   │   │   ├── expenseController.ts
-│   │   │   ├── productController.ts
-│   │   │   └── userController.ts
-│   │   │
-│   │   ├── routes/
-│   │   │   ├── dashboardRoutes.ts
-│   │   │   ├── expenseRoutes.ts
-│   │   │   ├── productRoutes.ts
-│   │   │   └── userRoutes.ts
-│   │   │
-│   │   └── index.ts
-│
 │   ├── prisma/
-│   │   ├── schema.prisma
-│   │   ├── seed.ts
-│   │   ├── migrations/
-│   │   └── seedData/
-│   │
 │   ├── assets/
-│   │   ├── logo.png
-│   │   ├── product images
-│   │   └── profile image
-│   │
+│   ├── package.json
 │   └── ecosystem.config.js
 │
-├── README.md
-└── package configuration files
-```
+└── README.md
+
+
+
+
 
 ## 🔐 Key Functionalities
 
