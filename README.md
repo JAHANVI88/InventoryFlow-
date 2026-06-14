@@ -1,69 +1,69 @@
 # InventoryFlow – Inventory Management Dashboard
 
-A full-stack Inventory Management Dashboard built with **Next.js, TypeScript, Node.js, PostgreSQL, AWS, and Tailwind CSS**. The application enables businesses to efficiently manage products, inventory levels, suppliers, and sales through a modern analytics dashboard.
+InventoryFlow is a full-stack inventory management application designed to help businesses efficiently manage products, monitor inventory levels, track sales, and gain operational insights through an interactive dashboard.
 
-## 🚀 Features
-
-### Inventory Management
-
-* Create, update, and delete inventory items
-* Track stock levels in real time
-* Manage product categories and inventory status
-* Low-stock monitoring and inventory alerts
-
-### Supplier Management
-
-* Add and manage supplier information
-* Track supplier-product relationships
-* Maintain supplier contact details
-
-### Sales Tracking
-
-* Record and monitor sales transactions
-* Analyze revenue trends
-* View sales performance metrics
-
-### Dashboard Analytics
-
-* Inventory overview dashboard
-* Product performance insights
-* Sales analytics and reporting
-* Visual data representation using charts
-
-### Search & Filtering
-
-* Product search functionality
-* Category-based filtering
-* Inventory status filtering
-* Supplier-based search
-
-### Cloud Deployment
-
-* Backend deployed on AWS EC2
-* PostgreSQL database hosted on AWS RDS
-* File and image storage using AWS S3
+Built using **Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and AWS**, the application focuses on providing a modern and scalable solution for inventory tracking and business analytics.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+### Product & Inventory Management
+
+* Add, update, and delete products
+* Monitor inventory levels and stock availability
+* Manage product categories
+* Track inventory movement and status
+
+### Sales & Expense Tracking
+
+* Record sales and expenses
+* Monitor revenue and operational costs
+* Analyze business performance through dashboard insights
+
+### Analytics Dashboard
+
+* Overview of inventory statistics
+* Sales and expense summaries
+* Popular product tracking
+* Visual reports and charts for better decision-making
+
+### Search & Filtering
+
+* Search products by name
+* Filter inventory records
+* View product-specific details quickly
+
+### Cloud Deployment
+
+* Frontend deployed using modern web hosting platforms
+* Backend hosted on AWS EC2
+* PostgreSQL database managed through AWS RDS
+* Asset storage handled using AWS S3
+
+---
+
+## Tech Stack
 
 ### Frontend
 
 * Next.js
 * TypeScript
+* Redux Toolkit
 * Tailwind CSS
 
 ### Backend
 
 * Node.js
 * Express.js
-* REST APIs
+* REST API Architecture
 
 ### Database
 
 * PostgreSQL
+* Prisma ORM
 
-### Cloud & DevOps
+### Cloud & Deployment
 
 * AWS EC2
 * AWS RDS
@@ -77,9 +77,8 @@ A full-stack Inventory Management Dashboard built with **Next.js, TypeScript, No
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```bash
 ```bash
 InventoryFlow/
 │
@@ -90,59 +89,59 @@ InventoryFlow/
 │
 ├── server/                  # Express Backend
 │   ├── src/
-│   ├── prisma/             # PostgreSQL Schema & Migrations
+│   ├── prisma/              # Database Schema & Migrations
 │   ├── assets/
 │   └── package.json
 │
 └── README.md
 ```
 
-```
+---
 
-## 🔐 Key Functionalities
+## Key Functionalities
 
-* Authentication and Authorization
-* Product Inventory Management
-* Supplier Management
+* Inventory Management
+* Product Tracking
 * Sales Monitoring
+* Expense Tracking
+* Dashboard Analytics
 * Data Visualization
-* Cloud-Based File Storage
-* Responsive Dashboard Design
-* REST API Architecture
+* Cloud-Based Storage
+* RESTful APIs
+* Responsive User Interface
 
 ---
 
-## 📈 Future Enhancements
+## Challenges & Learnings
+
+While building InventoryFlow, I gained hands-on experience with:
+
+* Designing relational database schemas using PostgreSQL and Prisma
+* Building scalable REST APIs with Node.js and Express.js
+* Managing application state in a Next.js application
+* Deploying backend services on AWS EC2
+* Configuring AWS RDS for managed PostgreSQL databases
+* Integrating AWS S3 for asset storage
+* Developing responsive dashboards and data visualizations
+
+---
+
+## Future Improvements
 
 * Role-Based Access Control (RBAC)
-* Inventory Forecasting
 * Email Notifications
-* Automated Reorder Suggestions
-* Export Reports (PDF/Excel)
+* Inventory Forecasting
 * Multi-Warehouse Support
 * Docker Containerization
-* CI/CD Pipeline Integration
+* CI/CD Pipeline
+* Audit Logs and Activity Tracking
 
 ---
 
-## 🎯 Learning Outcomes
-
-This project helped strengthen knowledge in:
-
-* Full Stack Development
-* REST API Design
-* Database Design and Modeling
-* PostgreSQL Query Optimization
-* AWS Cloud Deployment
-* Dashboard Development
-* Data Visualization
-* Software Engineering Best Practices
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Jahanvi Bagjani**
 
 * LinkedIn: https://linkedin.com/in/jahanvi-bagjani-400390314
 * GitHub: https://github.com/JAHANVI88
+
