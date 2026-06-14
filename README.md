@@ -1,5 +1,6 @@
-# InventoryFlow-
-Inventory Management Dashboard--A full-stack Inventory Management Dashboard built with Next.js, TypeScript, Node.js, PostgreSQL, AWS, and Tailwind CSS. The application enables businesses to efficiently manage products, inventory levels, suppliers, and sales through a modern analytics dashboard.
+# InventoryFlow – Inventory Management Dashboard
+
+A full-stack Inventory Management Dashboard built with **Next.js, TypeScript, Node.js, PostgreSQL, AWS, and Tailwind CSS**. The application enables businesses to efficiently manage products, inventory levels, suppliers, and sales through a modern analytics dashboard.
 
 ## 🚀 Features
 
@@ -79,26 +80,24 @@ Inventory Management Dashboard--A full-stack Inventory Management Dashboard buil
 ## 📂 Project Structure
 
 ```bash
+```bash
 InventoryFlow/
 │
-├── client/                    # Next.js Frontend
+├── client/                  # Next.js Frontend
 │   ├── public/
 │   ├── src/
-│   ├── package.json
-│   └── tsconfig.json
+│   └── package.json
 │
-├── server/                    # Node.js Backend
+├── server/                  # Express Backend
 │   ├── src/
-│   ├── prisma/
+│   ├── prisma/             # PostgreSQL Schema & Migrations
 │   ├── assets/
-│   ├── package.json
-│   └── ecosystem.config.js
+│   └── package.json
 │
 └── README.md
+```
 
-
-
-
+```
 
 ## 🔐 Key Functionalities
 
